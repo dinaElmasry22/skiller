@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.min.css"
+        integrity="sha512-pI8MMQ9fC050RkbUOr8cJ75T5bYJpT1PAiML/7QZM6Fr74Ef6csO2/Cl92q+Qpxidm7WonXr6f+DbyxNHPGH8g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Skillar</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex gap-3 align-items-center">
+                <a href="#"><img src="./images/logo.jpg" width="100px" alt="logo"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#" class="lang-btn">اللغة العربية</a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="row">
+
+                <div class="left-sec col-5 ">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    <i class="ri-information-line fs-3 mx-2"></i> General Info
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse show "
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+
+                                    <form action="">
+
+                                        <div class="mb-3">
+                                            <label for="formFile" class="form-label">personal photo</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control full-name" id="formGroupExampleInput"
+                                                placeholder="Enter Your Full Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput2" class="form-label">Address</label>
+                                            <input type="text" class="form-control address" id="formGroupExampleInput2"
+                                                placeholder="Enter your address">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput2" class="form-label">Enter your
+                                                birthday</label>
+                                            <input type="date" class="form-control date-input" id="formGroupExampleInput2"
+                                                placeholder="Another input placeholder">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Enter your
+                                                info</label>
+                                            <textarea class="form-control your-info" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput10" class="form-label">Enter your
+                                                Qualifications</label>
+                                            <div class="qualifications"><input type="search" class="search-input" placeholder="qualifications"></div>
+                                        </div>
+                                        <div class="show-qual mb-3"></div>
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput2" class="form-label">enter your
+                                                certificates</label>
+                                            <input type="text" class="form-control certificates" id="formGroupExampleInput2"
+                                                placeholder="Search what do you want">
+                                        </div>
+                                        
+                                    </form>
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <button type="button" class="btn btn-primary d-flex align-items-center gap-2"><i
+                                                class="ri-add-line fs-4"></i> Add section</button>
+                                        <button type="button" class="btn btn-primary d-flex align-items-center gap-2"><i
+                                                class="ri-edit-box-line fs-4"></i> Edit templete style</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse4" aria-expanded="false"
+                                    aria-controls="flush-collapse4">
+                                    Main Titles
+                                </button>
+                            </h2>
+                            <div id="flush-collapse4" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body main-titles-body">
+                                    <div class="input-group mb-3">
+                                        <label for="font-style " class="form-label text-primary">Font style</label>
+                                        <div class="row w-100">
+                                            <div class="col">
+                                                <select class="form-select mb-3" id="font-family">
+                                                    <option selected>select font family</option>
+                                                    <option value="serif">serif</option>
+                                                    <option value="sans-serif">sans-serif</option>
+                                                    <option value="monospace">monospace</option>
+                                                </select>
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-select mb-3" id="font-size">
+                                                    <option selected>select ont size</option>
+                                                    <option value="14">14</option>
+                                                    <option value="16">16</option>
+                                                    <option value="18">18</option>
+                                                    <option value="20">20</option>
+                                                    <option value="22">22</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="row w-100 d-flex align-items-center justify-content-between">
+                                            <div class="col-9">
+                                                <label for="font-color " class="form-label text-primary">Font
+                                                    color</label>
+                                                <div class="font-color-options">
+                                                    <span class="fc"></span>
+                                                    <span class="fc"></span>
+                                                    <span class="fc"></span>
+                                                    <span class="fc"></span>
+                                                    <span class="fc"></span>
+                                                    <span class="fc"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <label for="font-color-custom "
+                                                    class="form-label text-primary">custom</label>
+                                                <input type="color" class="form-control form-control-color"
+                                                    id="font-color-custom" value="#563d7c">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="row w-100 d-flex align-items-center justify-content-between">
+                                            <div class="col-9">
+                                                <label for="background-color "
+                                                    class="form-label text-primary">Background color</label>
+                                                <div class="background-color-options" id="background-color ">
+                                                    <span class="bg-color"></span>
+                                                    <span class="bg-color"></span>
+                                                    <span class="bg-color"></span>
+                                                    <span class="bg-color"></span>
+                                                    <span class="bg-color"></span>
+                                                    <span class="bg-color"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <label for="background-color-custom"
+                                                    class="form-label text-primary">custom</label>
+                                                <input type="color" class="form-control form-control-color"
+                                                    id="background-color-custom" value="#563d7c">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <label for="alignment" class="form-label text-primary">Alignments</label>
+                                        <div class="row w-100 d-flex align-items-center justify-content-between"
+                                            id="alignment">
+
+                                            <button class="col-3 border left-btn  p-1">
+                                                Left
+                                            </button>
+                                            <button class="col-3 border center-btn  p-1">
+
+                                                Center
+                                            </button>
+                                            <button class="col-3 border right-btn  p-1">
+                                                Right
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <label for="padding" class="form-label text-primary">padding</label>
+                                        <div class="row w-100 d-flex align-items-center justify-content-between"
+                                            id="padding">
+                                            <div class="col-3">
+                                                <label for="padding" class="form-label">Top</label>
+                                                <div class="col-12" id="padding">
+                                                    <input type="number" class="form-control padding-top" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <label for="padding" class="form-label">Bottom</label>
+                                                <div class="col-12" id="padding">
+                                                    <input type="number" class="form-control padding-bottom" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <label for="padding" class="form-label">Left</label>
+                                                <div class="col-12" id="padding">
+                                                    <input type="number" class="form-control padding-left" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <label for="padding" class="form-label">Right</label>
+                                                <div class="col-12" id="padding">
+                                                    <input type="number" class="form-control padding-right" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn edit-button btn-primary mt-3 d-flex align-items-center gap-2 justify-content-center w-100"
+                        type="button"><i class="ri-send-plane-fill fs-5"></i> Save</button>
+                </div>
+                <div class="right-sec col-6">
+                    <div class="cv-info">
+                        <div class="cv-title mb-3 ">General Info About Me</div>
+                        <div class="row mb-3">
+                            <div class="col-4 cv-img"></div>
+                            <div class="col-8 text-start">
+                                <h4 class="cv-name mb-3"></h4>
+                                <h5 class="cv-address mb-3"></h5>
+                                <div class="cv-birthday mb-3"></div>
+                            </div>
+                        </div>
+                        <pre class="cv-your-info mb-3"></pre>
+                        <div class="cv-qualifications mb-3"></div>
+                        <div class="cv-certificates mb-3"></div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="mt-5 mb-5">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-3"><img src="./images/logo.jpg" width="260px" alt="logo"></div>
+                <div class="col-2">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Jops</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms of services</a></li>
+                        <li><a href="#">User Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:info@skillar.com">info@skillar.com</a></li>
+                        <li><a href="tel:+9021312312">+9021312312</a></li>
+                        <li><a href="tel:+9021312312">+9021312312</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

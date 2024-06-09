@@ -1,0 +1,122 @@
+.navbar a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.navbar ul {
+    margin: 0;
+}
+.navbar ul li  {
+    margin: 0;
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.lang-btn {
+    border: 1px solid #708ff3;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding:5px 10px;
+}
+main {
+    background-color: #eee;
+    padding: 20px;
+    padding: 20px;
+}
+.cv-info {
+    width: 470px;
+    height: 580px;
+    background-color: white;
+    padding: 14px;
+    overflow: hidden;
+}
+.font-color-options span , .background-color-options span {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    /* background-color: #708ff3; */
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+.img-fluid {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.span-qual {
+    color: white;
+    background-color:rgb(22, 22, 22);
+    padding: 3px 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.search-input {
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    width: 100%;
+}
+.span-result-qual {
+    background-color: #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 5px 5px 5px 0;
+    padding: 3px 6px;
+}
+.ri-close-fill {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.qualifications {
+    width: 100%;
+    border: 1px solid #dee2e6;
+    padding: .375rem .6rem;
+    border-radius:.375rem ;
+    -webkit-border-radius:.375rem ;
+    -moz-border-radius:.375rem ;
+    -ms-border-radius:.375rem ;
+    -o-border-radius:.375rem ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.show-qual {
+    display: flex;
+    flex-wrap: wrap;
+}
+.accordion-body {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.footer-links {
+    padding: 0;
+}
+.footer-links li a {
+    text-decoration: none;
+    color: #708ff3;
+}
+.footer-links li  {
+    list-style: none;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+}
